@@ -4,8 +4,9 @@ Status: **approved roadmap, in progress.** Phases 0 and 1 are complete
 (PR-02…PR-09, verified 2026-11-13). Phase 2's data model and initial migration
 (PR-15/PR-16) and the API contract (PR-11) have landed. Phase 3 is under way:
 password hashing (PR-20), the JWT/cookie helpers plus auth middleware
-(PR-21/PR-22), signup (PR-23), and login (PR-24) are implemented; logout
-(PR-25) is next. The original 84-PR record
+(PR-21/PR-22), signup (PR-23), login (PR-24), logout, and `GET /api/auth/me`
+(PR-26) are implemented and merged; auth rate limiting, CORS, and security
+headers (PR-27) are next. The original 84-PR record
 below is preserved as written, with completion marks added. Altars and group
 conversations are scheduled as **Phase 12** (PR-85…PR-92) and are not part of the
 direct-message phases.
